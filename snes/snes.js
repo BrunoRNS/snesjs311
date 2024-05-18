@@ -871,6 +871,7 @@ class Snes {
 
     // rom loading and header parsing
     this.loadRom = function (rom, isHirom) {
+      let header;
       if (rom.length % 0x8000 === 0) {
         // no copier header
         header = this.parseHeader(rom, isHirom);
