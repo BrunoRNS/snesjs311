@@ -83,6 +83,12 @@ el("runframe").onclick = function(e) {
   }
 }
 
+el("ishirom").onchange = function(e) {
+  if(loaded) {
+    // reload when switching from LoROM to HiROM
+    loadRom(romArr);
+  }
+}
 
 document.onvisibilitychange = function(e) {
   if(document.hidden) {
