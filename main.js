@@ -100,7 +100,7 @@ document.onvisibilitychange = function(e) {
 }
 
 function loadRom(rom) {
-  let hiRom = false;
+  let hiRom = el("ishirom").checked;;
   if(snes.loadRom(rom, hiRom)) {
     snes.reset(true);
     if(!loaded && !paused) {
