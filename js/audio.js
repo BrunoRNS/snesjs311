@@ -4,17 +4,6 @@ class AudioHandler {
 
     this.hasAudio = true;
     let Ac = window.AudioContext || window.webkitAudioContext;
-
-    this.resumeAudioContext = function() {
-      if (this.audioContext.state === 'suspended') {
-        this.audioContext.resume().then(() => {
-          console.log('AudioContext resumed!');
-        });
-      }
-    };
-
-    document.addEventListener('click', this.resumeAudioContext);
-
     this.sampleBufferL = new Float64Array(735);
     this.sampleBufferR = new Float64Array(735);
     this.samplesPerFrame = 735;
