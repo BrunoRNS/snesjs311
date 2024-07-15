@@ -20,4 +20,4 @@ Or even better, fork this repo and upgrade this simple code.
 - This is not fast as it could be, >80 kb ROMs will be too much for a good emulation.
 
 This project is not affliated with, nor authorized, endorsed or licensed in any way by Nintendo Corporation, 
-itsaffliates or subsidiaries. No SNES ROMs are included in this repository!
+its affliates or subsidiaries. No SNES ROMs are included in this repository!
