@@ -1,6 +1,6 @@
 # snesjs311
 
-This is a modified version of SnesJS by @angelo_wf also licensed by MIT
+This is a modified version of SnesJS by @angelo-wf also licensed by MIT
 This is not a javascript emulator for you to upload your ROMs and play like original SnesJS is.
 
 ### With this version you can create web pages with the "main.smc" being your own snes ROM.
